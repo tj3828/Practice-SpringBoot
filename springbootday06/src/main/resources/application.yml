@@ -1,0 +1,46 @@
+tj3828:
+  name:
+    tak YAML
+---
+spring:
+  profiles:
+    default
+tj3828:
+  name:
+    tak default
+  list:
+  - name: my name
+    descr: my description
+  - name: another name
+    descr: another description
+---
+spring:
+  profiles:
+    prod
+tj3828:
+  name:
+    tak prod
+  list:
+    - name: my name
+      descr: my description
+    - name: another name
+      descr: another description
+    - name: another name
+      descr: another description
+
+---
+spring:
+  profiles:
+    dev
+tj3828:
+  name:
+    tak dev
+  list:
+    - name: my name
+      descr: my description
+    - name: another name
+      descr: another description
+    - name: another name
+      descr: another description
+    - name: another name
+      descr: another description
